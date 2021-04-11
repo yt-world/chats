@@ -15,6 +15,23 @@
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#config-web-app -->
 <body>
+    <div class="chat">
+  <div class="chat-title">
+    <h1>Chat Room</h1>
+    <h2>Firebase</h2>
+    <figure class="avatar">
+      <img src="https://p7.hiclipart.com/preview/349/273/275/livechat-online-chat-computer-icons-chat-room-web-chat-others.jpg" /></figure>
+  </div>
+  <div class="messages">
+    <div class="messages-content"></div>
+  </div>
+  <div class="message-box">
+    <textarea type="text" class="message-input" id="message" placeholder="Type message..."></textarea>
+    <button type="submit" class="message-submit">Send</button>
+  </div>
+
+</div>
+<div class="bg"></div>
 <script>
   // Your web app's Firebase configuration
   var firebaseConfig = {
@@ -62,23 +79,7 @@
   }
 </style>
 
-<div class="chat">
-  <div class="chat-title">
-    <h1>Chat Room</h1>
-    <h2>Firebase</h2>
-    <figure class="avatar">
-      <img src="https://p7.hiclipart.com/preview/349/273/275/livechat-online-chat-computer-icons-chat-room-web-chat-others.jpg" /></figure>
-  </div>
-  <div class="messages">
-    <div class="messages-content"></div>
-  </div>
-  <div class="message-box">
-    <textarea type="text" class="message-input" id="message" placeholder="Type message..."></textarea>
-    <button type="submit" class="message-submit">Send</button>
-  </div>
 
-</div>
-<div class="bg"></div>
 
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.3/jquery.mCustomScrollbar.concat.min.js'></script>
